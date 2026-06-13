@@ -25,28 +25,30 @@
 
 <body>
 
-<!-- NAVBAR WITH FIXED LOGO -->
-<nav style="display:flex; align-items:center; gap:20px; padding:10px 20px;">
+<!-- NAVBAR -->
+<nav class="navbar">
 
-    <img src="logo.png" alt="Law Firm Logo"
-         style="height:85px; width:auto; display:block;">
+    <div class="logo-container">
+        <img src="logo.png" alt="Law Firm Logo" class="logo">
+    </div>
 
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#education">Education</a>
-    <a href="#expertise">Expertise</a>
-    <a href="#consultation">Consultation</a>
-    <a href="#contact">Contact</a>
+    <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#consultation">Consultation</a>
+        <a href="#contact">Contact</a>
+    </div>
 
 </nav>
 
+<!-- HERO -->
 <header id="home" class="hero">
     <div class="hero-content">
         <h1>Lawyer Charbel Bou Younes</h1>
 
-        <p>
-            Attorney at Law | Beirut Bar Association
-        </p>
+        <p>Attorney at Law | Beirut Bar Association</p>
 
         <p style="margin-top:15px;">
             Providing legal services across corporate, commercial, criminal, family, sports, and AI & technology law.
@@ -71,7 +73,9 @@
     </div>
 </header>
 
+<!-- ABOUT -->
 <section id="about" class="card">
+
     <h2>About the Lawyer</h2>
 
     <div style="display:flex; flex-wrap:wrap; gap:25px; align-items:center;">
@@ -94,9 +98,12 @@
         </div>
 
     </div>
+
 </section>
 
+<!-- EDUCATION -->
 <section id="education" class="card">
+
     <h2>Education & Qualifications</h2>
 
     <ul>
@@ -110,9 +117,12 @@
         <li>AI & Technology Law Advisory Experience</li>
         <li>Fluent in Arabic, English, and French</li>
     </ul>
+
 </section>
 
+<!-- EXPERTISE -->
 <section id="expertise" class="card">
+
     <h2>Areas of Expertise</h2>
 
     <ul>
@@ -128,18 +138,24 @@
         <li>Sports Law</li>
         <li>AI & Technology Law</li>
     </ul>
+
 </section>
 
+<!-- CONSULTATION -->
 <section id="consultation" class="card">
+
     <h2>Book a Legal Consultation</h2>
 
     <p>Get direct legal advice regarding your case.</p>
 
     <a href="https://wa.me/96176341528" class="btn">WhatsApp Consultation</a>
     <a href="tel:+96176341528" class="btn" style="background:#222;">Call Now</a>
+
 </section>
 
+<!-- CONTACT -->
 <section id="contact" class="card">
+
     <h2>Contact</h2>
 
     <p><strong>Email:</strong> lawyercharbelbouyounes@gmail.com</p>
@@ -154,12 +170,15 @@
         <button type="submit" class="btn">Send Message</button>
 
     </form>
+
 </section>
 
+<!-- FOOTER -->
 <footer>
     © 2026 Charbel Bou Younes | Attorney at Law. All Rights Reserved.
 </footer>
 
+<!-- WHATSAPP -->
 <a class="whatsapp" href="https://wa.me/96176341528" target="_blank">
     WhatsApp
 </a>
