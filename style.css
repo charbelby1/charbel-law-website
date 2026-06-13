@@ -1,3 +1,25 @@
+nav {
+    background-color: #0b0b0f;
+    text-align: center;
+    padding: 16px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #c9a24e;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 18px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+nav a:hover {
+    color: #c9a24e;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -6,65 +28,16 @@ body {
     line-height: 1.7;
 }
 
-/* NAVBAR */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px 25px;
-    background-color: #0b0b0f;
-    border-bottom: 1px solid #c9a24e;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-}
-
-.nav-left {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-
-.logo {
-    height: 70px;
-    width: auto;
-    object-fit: contain;
-}
-
-.brand-name {
-    color: white;
-    font-weight: 700;
-    font-size: 16px;
-}
-
-.nav-right a {
-    color: white;
-    text-decoration: none;
-    margin: 0 12px;
-    font-weight: 600;
-}
-
-.nav-right a:hover {
-    color: #c9a24e;
-}
-
 /* HERO */
 .hero {
     background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
                 url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f') center/cover;
-    color: white;
     text-align: center;
     padding: 160px 20px;
-    border-bottom: 1px solid #c9a24e;
 }
 
 .hero h1 {
     font-size: 60px;
-    margin-bottom: 10px;
-}
-
-.hero p {
-    font-size: 20px;
 }
 
 /* BUTTON */
@@ -78,7 +51,7 @@ body {
     font-weight: bold;
 }
 
-/* CARDS */
+/* SECTIONS */
 .card {
     background: #16161d;
     max-width: 950px;
@@ -92,11 +65,11 @@ h2 {
     color: #c9a24e;
 }
 
-/* INPUTS */
+/* INPUT */
 input, textarea {
     width: 100%;
-    margin-top: 10px;
     padding: 10px;
+    margin-top: 10px;
     background: #0f0f14;
     border: 1px solid #2a2a35;
     color: white;
@@ -104,9 +77,9 @@ input, textarea {
 
 /* FOOTER */
 footer {
-    background-color: #0b0b0f;
     text-align: center;
     padding: 30px;
+    background-color: #0b0b0f;
     font-size: 13px;
 }
 
