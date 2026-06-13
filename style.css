@@ -27,6 +27,7 @@ body {
     line-height: 1.6;
 }
 
+/* HERO */
 .hero {
     background: linear-gradient(rgba(11,31,58,0.85), rgba(11,31,58,0.85)),
                 url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f') center/cover;
@@ -46,6 +47,7 @@ body {
     opacity: 0.9;
 }
 
+/* BUTTON */
 .btn {
     display: inline-block;
     background-color: #c9a24e;
@@ -62,6 +64,7 @@ body {
     transform: translateY(-2px);
 }
 
+/* CARDS */
 .card {
     background: white;
     max-width: 1000px;
@@ -84,6 +87,7 @@ ul li {
     margin-bottom: 10px;
 }
 
+/* FOOTER */
 footer {
     background-color: #0b1f3a;
     color: white;
@@ -91,4 +95,18 @@ footer {
     padding: 25px;
     margin-top: 60px;
     font-size: 14px;
+}
+
+/* FLOATING WHATSAPP BUTTON */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    padding: 14px 18px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
