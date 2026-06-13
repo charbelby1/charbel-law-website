@@ -2,6 +2,9 @@ nav {
     background-color: #08152d;
     text-align: center;
     padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 nav a {
@@ -18,9 +21,10 @@ nav a:hover {
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Arial", sans-serif;
     background-color: #f4f6f8;
     color: #333;
+    line-height: 1.6;
 }
 
 .hero {
@@ -28,54 +32,65 @@ body {
                 url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f') center/cover;
     color: white;
     text-align: center;
-    padding: 120px 20px;
+    padding: 140px 20px;
 }
 
 .hero h1 {
-    font-size: 52px;
+    font-size: 54px;
     margin-bottom: 10px;
 }
 
 .hero p {
     font-size: 20px;
     margin-bottom: 25px;
+    opacity: 0.9;
 }
 
 .btn {
     display: inline-block;
     background-color: #c9a24e;
     color: white;
-    padding: 12px 25px;
+    padding: 14px 30px;
     text-decoration: none;
     border-radius: 6px;
     font-weight: bold;
+    transition: 0.3s;
 }
 
 .btn:hover {
     background-color: #b08b3f;
+    transform: translateY(-2px);
 }
 
 .card {
     background: white;
     max-width: 1000px;
-    margin: 30px auto;
-    padding: 30px;
+    margin: 40px auto;
+    padding: 40px;
     border-radius: 12px;
-    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
 }
 
 h2 {
     color: #0b1f3a;
+    margin-bottom: 20px;
 }
 
 ul li {
     margin-bottom: 10px;
 }
 
+/* About section upgrade */
+#about p {
+    font-size: 16px;
+}
+
+/* Footer */
 footer {
     background-color: #0b1f3a;
     color: white;
     text-align: center;
-    padding: 20px;
-    margin-top: 40px;
+    padding: 25px;
+    margin-top: 60px;
+    font-size: 14px;
 }
