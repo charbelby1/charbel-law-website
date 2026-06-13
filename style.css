@@ -1,10 +1,11 @@
 nav {
-    background-color: #08152d;
+    background-color: #0b0b0f;
     text-align: center;
     padding: 15px;
     position: sticky;
     top: 0;
     z-index: 1000;
+    border-bottom: 1px solid #c9a24e;
 }
 
 nav a {
@@ -13,48 +14,51 @@ nav a {
     margin: 20px;
     font-weight: bold;
     font-size: 16px;
+    letter-spacing: 0.5px;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    color: #c9a24e;
 }
 
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f6f8;
-    color: #333;
+    background-color: #0f0f14;
+    color: #e6e6e6;
     line-height: 1.6;
 }
 
 /* HERO */
 .hero {
-    background: linear-gradient(rgba(11,31,58,0.85), rgba(11,31,58,0.85)),
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
                 url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f') center/cover;
     color: white;
     text-align: center;
-    padding: 140px 20px;
+    padding: 150px 20px;
+    border-bottom: 1px solid #c9a24e;
 }
 
 .hero h1 {
-    font-size: 54px;
+    font-size: 56px;
     margin-bottom: 10px;
+    letter-spacing: 1px;
 }
 
 .hero p {
     font-size: 20px;
-    margin-bottom: 25px;
     opacity: 0.9;
+    margin-bottom: 25px;
 }
 
 /* BUTTON */
 .btn {
     display: inline-block;
     background-color: #c9a24e;
-    color: white;
+    color: #0b0b0f;
     padding: 14px 30px;
     text-decoration: none;
-    border-radius: 6px;
+    border-radius: 4px;
     font-weight: bold;
     transition: 0.3s;
 }
@@ -64,23 +68,24 @@ body {
     transform: translateY(-2px);
 }
 
-/* CARDS */
+/* SECTIONS */
 .card {
-    background: white;
+    background: #16161d;
     max-width: 1000px;
     margin: 40px auto;
     padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    border: 1px solid #2a2a35;
 }
 
 .highlight {
-    border-left: 6px solid #c9a24e;
+    border-left: 4px solid #c9a24e;
 }
 
 h2 {
-    color: #0b1f3a;
+    color: #c9a24e;
     margin-bottom: 20px;
+    letter-spacing: 0.5px;
 }
 
 ul li {
@@ -89,15 +94,16 @@ ul li {
 
 /* FOOTER */
 footer {
-    background-color: #0b1f3a;
-    color: white;
+    background-color: #0b0b0f;
+    color: #999;
     text-align: center;
     padding: 25px;
     margin-top: 60px;
-    font-size: 14px;
+    font-size: 13px;
+    border-top: 1px solid #2a2a35;
 }
 
-/* FLOATING WHATSAPP BUTTON */
+/* WHATSAPP BUTTON */
 .whatsapp {
     position: fixed;
     bottom: 20px;
@@ -108,5 +114,5 @@ footer {
     border-radius: 50px;
     text-decoration: none;
     font-weight: bold;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
 }
