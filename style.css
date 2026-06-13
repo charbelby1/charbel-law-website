@@ -1,8 +1,7 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #f5f7fa;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
     color: #333;
 }
 
@@ -10,27 +9,36 @@ header {
     background-color: #0b1f3a;
     color: white;
     text-align: center;
-    padding: 50px;
+    padding: 60px 20px;
 }
 
-section {
-    padding: 40px;
-    max-width: 1000px;
-    margin: auto;
-}
-
-h1 {
+header h1 {
     margin: 0;
+    font-size: 42px;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.card {
+    background: white;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
 }
 
 h2 {
     color: #0b1f3a;
 }
 
-.card {
-    background: white;
+footer {
+    background-color: #0b1f3a;
+    color: white;
+    text-align: center;
     padding: 20px;
-    margin-top: 20px;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-top: 40px;
 }
