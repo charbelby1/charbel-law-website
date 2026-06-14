@@ -1,233 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bou Younes Law Firm</title>
 
-<title>Bou Younes Law Firm | Attorney at Law | Beirut Bar Association</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
 
-<meta name="description" content="Beirut-based attorney providing corporate, commercial, civil, criminal, family, sports, real estate, intellectual property, and technology law services in Lebanon.">
+    body {
+      background-color: #f5f5f5;
+      color: #1a1a1a;
+    }
 
-<meta name="keywords" content="lawyer Lebanon, Beirut attorney, corporate lawyer Beirut, criminal lawyer Lebanon, family lawyer Lebanon, civil law Lebanon, legal advisor Lebanon">
+    /* NAVBAR */
+    header {
+      background-color: #0b1f3a;
+      color: white;
+      padding: 15px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
 
-<meta name="author" content="Lawyer Charbel Bou Younes">
-<meta name="robots" content="index, follow">
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
 
-<link rel="canonical" href="https://charbelby1.github.io/charbel-law-website/">
+    .logo-container img {
+      height: 55px;   /* FIXED LOGO SIZE */
+      width: auto;
+      object-fit: contain;
+    }
 
-<meta property="og:title" content="Bou Younes Law Firm | Attorney at Law in Beirut">
-<meta property="og:description" content="Beirut-based law firm providing legal services across multiple practice areas.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://charbelby1.github.io/charbel-law-website/">
+    .firm-name {
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
 
-<link rel="stylesheet" href="style.css">
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-size: 14px;
+    }
+
+    nav a:hover {
+      opacity: 0.7;
+    }
+
+    /* HERO */
+    .hero {
+      background-color: #0b1f3a;
+      color: white;
+      text-align: center;
+      padding: 90px 20px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      letter-spacing: 2px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      opacity: 0.9;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      background: white;
+      color: #0b1f3a;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #ddd;
+    }
+
+    /* SECTION */
+    .section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    .section h2 {
+      color: #0b1f3a;
+      margin-bottom: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.05);
+      margin-bottom: 20px;
+    }
+
+    /* FOOTER */
+    footer {
+      background-color: #0b1f3a;
+      color: white;
+      text-align: center;
+      padding: 25px;
+      font-size: 14px;
+    }
+  </style>
 </head>
 
 <body>
 
-<nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#firm">Our Firm</a>
-    <a href="#education">Attorney</a>
-    <a href="#expertise">Practice Areas</a>
-    <a href="#consultation">Consultation</a>
-    <a href="#contact">Contact</a>
-</nav>
-
-<header id="home" class="hero">
-
-    <div class="hero-content">
-
-        <h1>Bou Younes Law Firm</h1>
-
-        <p>Attorney at Law | Beirut Bar Association</p>
-
-        <p style="margin-top:15px;">
-            Eyes on Justice. Precision in Law. Integrity in Practice.
-        </p>
-
-        <a href="#consultation" class="btn">Request Legal Consultation</a>
-
-        <div style="margin-top:10px;">
-            <a href="https://wa.me/96176341528" class="btn">WhatsApp</a>
-            <a href="tel:+96176341528" class="btn" style="background:#222;">Call Now</a>
-        </div>
-
-        <div style="margin-top:15px; font-size:13px; color:#444;">
-            ✔ Beirut Bar Association | ✔ Confidential Legal Services | ✔ Lebanon Based Practice
-        </div>
-
-        <div style="margin-top:10px;">
-            <a href="https://www.linkedin.com/in/charbel-c-bou-younes-67949323b/" target="_blank" class="btn" style="background:#0a66c2;">
-                LinkedIn Profile
-            </a>
-        </div>
-
+  <!-- NAVBAR -->
+  <header>
+    <div class="logo-container">
+      <img src="logo.png" alt="Logo">
+      <div class="firm-name">BOU YOUNES LAW FIRM</div>
     </div>
 
-</header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="firm.html">Our Firm</a>
+      <a href="#">Attorney</a>
+      <a href="#">Practice Areas</a>
+      <a href="#">Insights</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
 
-<section id="about" class="card">
+  <!-- HERO -->
+  <section class="hero">
+    <h1>BOU YOUNES LAW FIRM</h1>
+    <p>
+      Eyes on Justice.<br>
+      Precision in Law.<br>
+      Integrity in Practice.
+    </p>
 
-    <h2>About the Lawyer</h2>
+    <a class="btn" href="firm.html">Request Consultation</a>
+  </section>
 
-    <div style="display:flex; flex-wrap:wrap; gap:25px; align-items:center;">
-
-        <div style="flex:1; min-width:220px;">
-            <img src="charbel%20profile.jpeg"
-                 style="width:100%; height:350px; object-fit:cover; border-radius:10px; border:1px solid #2a2a35;">
-        </div>
-
-        <div style="flex:2; min-width:250px;">
-
-            <p>
-                Licensed attorney registered with the Beirut Bar Association, providing legal services and advisory support across multiple practice areas.
-            </p>
-
-            <p>
-                Assisting individuals, businesses, and organizations with practical, strategic, and results-oriented legal solutions.
-            </p>
-
-            <p>
-                <strong>Based in Lebanon | Beirut Bar Association Member</strong>
-            </p>
-
-        </div>
-
+  <!-- ABOUT -->
+  <section class="section">
+    <h2>About the Firm</h2>
+    <div class="card">
+      Bou Younes Law Firm provides strategic legal services focused on precision,
+      integrity, and results. We represent individuals and businesses with a
+      strong commitment to excellence.
     </div>
+  </section>
 
-</section>
-
-<section id="firm" class="card">
-
-    <h2>Our Firm</h2>
-
-    <p>
-        Bou Younes Law Firm is a Beirut-based legal practice providing strategic legal services across corporate, commercial, civil, criminal, family, sports, real estate, intellectual property, and technology law.
-    </p>
-
-    <h3>Who We Are</h3>
-
-    <p>
-        We are a client-focused legal practice built on integrity, confidentiality, and professional excellence.
-    </p>
-
-    <h3>Our Philosophy</h3>
-
-    <p>
-        Our principal goals are to provide the highest quality legal services available, to be an instrumental part of each client's success, and to build long-term relationships based on trust and results.
-    </p>
-
-    <h3>Results-Oriented</h3>
-
-    <p>
-        At Bou Younes Law Firm we stress—and clients rightfully expect—strong results. We employ innovative, pragmatic strategies and diligent work to ensure that our clients' legal needs are met.
-    </p>
-
-</section>
-
-<section id="education" class="card">
-
-    <h2>Attorney</h2>
-
-    <p>
-        Learn more about the qualifications and professional experience of Lawyer Charbel Bou Younes.
-    </p>
-
-    <details style="margin-top:20px;">
-        <summary style="cursor:pointer; font-weight:bold; font-size:18px;">
-            Qualifications & Education
-        </summary>
-
-        <ul style="margin-top:15px;">
-            <li>Attorney at Law – Beirut Bar Association</li>
-            <li>Master of Laws (LL.M.) – Lebanese University</li>
-            <li>Bachelor of Laws (LL.B.) – Lebanese University</li>
-            <li>Certificate in International Criminal Law and Procedure – ICC Training Program</li>
-            <li>Fluent in Arabic, English, and French</li>
-        </ul>
-
-    </details>
-
-    <details style="margin-top:20px;">
-        <summary style="cursor:pointer; font-weight:bold; font-size:18px;">
-            Professional Experience
-        </summary>
-
-        <ul style="margin-top:15px;">
-            <li>Civil Law</li>
-            <li>Corporate Law</li>
-            <li>Commercial Law</li>
-            <li>Criminal Law</li>
-            <li>Family Law</li>
-            <li>Real Estate Law</li>
-            <li>Intellectual Property Law</li>
-            <li>Sports Law</li>
-            <li>AI & Technology Law</li>
-            <li>Legal Advisory & Strategic Consulting</li>
-        </ul>
-
-    </details>
-
-</section>
-
-<section id="expertise" class="card">
-
-    <h2>Practice Areas</h2>
-
-    <ul>
-        <li>Civil Law</li>
-        <li>Corporate Law</li>
-        <li>Commercial Law</li>
-        <li>Criminal Law</li>
-        <li>Family Law</li>
-        <li>Real Estate Law</li>
-        <li>Intellectual Property Law</li>
-        <li>Sports Law</li>
-        <li>AI & Technology Law</li>
-    </ul>
-
-</section>
-
-<section id="consultation" class="card">
-
-    <h2>Book a Legal Consultation</h2>
-
-    <p>Get direct legal advice regarding your case.</p>
-
-    <a href="https://wa.me/96176341528" class="btn">WhatsApp Consultation</a>
-    <a href="tel:+96176341528" class="btn" style="background:#222;">Call Now</a>
-
-</section>
-
-<section id="contact" class="card">
-
-    <h2>Contact</h2>
-
-    <p><strong>Email:</strong> lawyercharbelbouyounes@gmail.com</p>
-    <p><strong>Phone:</strong> +961 76 341 528</p>
-
-    <form action="https://formspree.io/f/mjgdpnzn" method="POST">
-
-        <input type="text" name="name" placeholder="Full Name" required>
-        <input type="email" name="email" placeholder="Email Address" required>
-        <input type="text" name="subject" placeholder="Subject (optional)">
-        <textarea name="message" placeholder="Describe your legal issue..." rows="6" required></textarea>
-
-        <button type="submit" class="btn">Send Message</button>
-
-    </form>
-
-</section>
-
-<footer>
+  <!-- FOOTER -->
+  <footer>
     © 2026 Bou Younes Law Firm. All Rights Reserved.
-</footer>
-
-<a class="whatsapp" href="https://wa.me/96176341528" target="_blank">
-    WhatsApp
-</a>
+  </footer>
 
 </body>
 </html>
