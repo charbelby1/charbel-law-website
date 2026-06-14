@@ -5,13 +5,67 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact | Bou Younes Law Firm</title>
 <link rel="stylesheet" href="style.css">
+
+<style>
+
+/* BACKGROUND */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.contact-page {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)),
+  url('contact-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 40px 20px;
+}
+
+/* CARD */
+.card {
+  max-width: 850px;
+  margin: auto;
+  background: rgba(0,0,0,0.75);
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid #c9a24e;
+}
+
+/* INPUTS */
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+button {
+  margin-top: 15px;
+  width: 100%;
+  padding: 12px;
+  background: #c9a24e;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+}
+
+a {
+  color: #c9a24e;
+}
+
+</style>
 </head>
 
 <body>
 
 <header>
   <div class="logo">
-    <img src="logo.png" alt="Bou Younes Law Firm Logo">
+    <img src="logo.png" alt="Logo">
     <b>BOU YOUNES LAW FIRM</b>
   </div>
 
@@ -25,11 +79,11 @@
   </nav>
 </header>
 
-<div class="section">
+<div class="contact-page">
 
   <div class="card">
 
-    <h1>Contact Us</h1>
+    <h1 style="color:#c9a24e;">Contact Us</h1>
 
     <p>
       <strong>Lawyer Charbel Bou Younes</strong><br>
@@ -39,70 +93,41 @@
     <p>
       WhatsApp: +961 76 341 528<br><br>
 
-      <a href="https://www.linkedin.com/in/charbel-c-bou-younes-67949323b/" target="_blank">
-        LinkedIn
-      </a>
-      |
-      <a href="https://www.instagram.com/charbel.by/?hl=en" target="_blank">
-        Instagram
-      </a>
+      <a href="https://www.linkedin.com/in/charbel-c-bou-younes-67949323b/" target="_blank">LinkedIn</a> |
+      <a href="https://www.instagram.com/charbel.by/?hl=en" target="_blank">Instagram</a>
     </p>
 
-    <hr style="margin:25px 0;border-color:#2a2a35;">
+    <hr style="border-color:#333;margin:20px 0;">
 
-    <!-- CONTACT FORM -->
     <form action="https://formspree.io/f/mjgdpnzn" method="POST">
 
-      <input type="text" name="name" placeholder="Your Name" required
-        style="width:100%;padding:12px;margin-bottom:10px;">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
 
-      <input type="email" name="email" placeholder="Your Email" required
-        style="width:100%;padding:12px;margin-bottom:10px;">
-
-      <textarea name="message" placeholder="Your Message" rows="6" required
-        style="width:100%;padding:12px;"></textarea>
-
-      <button class="btn" type="submit">
-        Send Message
-      </button>
+      <button type="submit">Send Message</button>
 
     </form>
 
-    <!-- OFFICE INFO BLOCK -->
-    <div style="margin-top:25px;padding:20px;border:1px solid #2a2a35;border-radius:10px;background:#0b0b0f;">
-
-      <h2 style="color:#c9a24e;">Office Information</h2>
-
+    <div style="margin-top:25px;">
+      <h3 style="color:#c9a24e;">Office</h3>
       <p>
-        <strong>Office:</strong><br>
         Byblos Old Souk, Saint Peter Center, 1st Floor<br>
         Byblos, Lebanon
       </p>
 
-      <p>
-        <strong>Business Hours:</strong><br>
-        Monday – Friday<br>
-        8:00 AM – 7:00 PM
-      </p>
+      <h3 style="color:#c9a24e;">Business Hours</h3>
+      <p>Monday – Friday<br>8:00 AM – 7:00 PM</p>
 
-      <p>
-        <strong>Response Time:</strong><br>
-        We aim to respond to all inquiries within one business day.
-      </p>
-
+      <h3 style="color:#c9a24e;">Response Time</h3>
+      <p>We respond within one business day.</p>
     </div>
 
   </div>
 
 </div>
 
-<a class="whatsapp" href="https://wa.me/96176341528" target="_blank">
-  WhatsApp
-</a>
-
-<footer>
-  © 2026 Bou Younes Law Firm. All Rights Reserved.
-</footer>
+<a class="whatsapp" href="https://wa.me/96176341528" target="_blank">WhatsApp</a>
 
 </body>
 </html>
