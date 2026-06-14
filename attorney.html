@@ -5,13 +5,85 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Attorney | Bou Younes Law Firm</title>
 <link rel="stylesheet" href="style.css">
+
+<style>
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0b0b0f;
+  color: white;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)),
+  url('attorney-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 1px solid #c9a24e;
+}
+
+.hero h1 {
+  color: #c9a24e;
+  font-size: 42px;
+}
+
+/* PROFILE SECTION */
+.section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+.profile {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.profile img {
+  width: 280px;
+  border-radius: 12px;
+  border: 1px solid #c9a24e;
+}
+
+.card {
+  flex: 1;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid #2a2a35;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+h2 {
+  color: #c9a24e;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+  color: #888;
+  border-top: 1px solid #2a2a35;
+}
+
+</style>
+
 </head>
 
 <body>
 
 <header>
   <div class="logo">
-    <img src="logo.png" alt="Bou Younes Law Firm Logo">
+    <img src="logo.png" alt="Logo" style="height:55px;">
     <b>BOU YOUNES LAW FIRM</b>
   </div>
 
@@ -20,33 +92,45 @@
     <a href="firm.html">Our Firm</a>
     <a href="attorney.html">Attorney</a>
     <a href="practice-areas.html">Practice Areas</a>
-    <a href="contact.html">Contact</a>
     <a href="insights.html">Insights</a>
+    <a href="contact.html">Contact</a>
   </nav>
 </header>
 
+<!-- HERO -->
+<div class="hero">
+  <h1>Attorney</h1>
+</div>
+
+<!-- CONTENT -->
 <div class="section">
 
-  <div class="card" style="text-align:center;">
+  <div class="profile">
 
-    <img
-      src="charbel profile.jpeg"
-      alt="Lawyer Charbel Bou Younes"
-      style="max-width:250px;width:100%;border-radius:10px;margin-bottom:20px;"
-    >
+    <!-- YOUR PHOTO -->
+    <img src="charbel profile.jpeg" alt="Attorney Photo">
 
-    <h1>Lawyer Charbel Bou Younes</h1>
+    <!-- INFO -->
+    <div class="card">
 
-    <p><strong>Member of the Beirut Bar Association</strong></p>
+      <h2>Lawyer Charbel Bou Younes</h2>
 
-    <p>
-      Specialized in corporate, commercial, civil, and strategic legal advisory services.
-    </p>
+      <p>
+        Member of the Beirut Bar Association with experience in corporate,
+        civil, and commercial law.
+      </p>
 
-    <p>
-      Providing legal representation, corporate consultancy, contract drafting,
-      dispute resolution, and business-oriented legal solutions.
-    </p>
+      <p>
+        Focused on delivering strategic legal solutions with precision,
+        confidentiality, and strong advocacy.
+      </p>
+
+      <p>
+        <strong>Practice Areas:</strong><br>
+        Corporate Law, Civil Law, Commercial Law, Arbitration
+      </p>
+
+    </div>
 
   </div>
 
