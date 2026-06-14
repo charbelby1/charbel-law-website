@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -20,6 +19,7 @@
     <a href="firm.html">Our Firm</a>
     <a href="attorney.html">Attorney</a>
     <a href="practice-areas.html">Practice Areas</a>
+    <a href="insights.html">Insights</a>
     <a href="contact.html">Contact</a>
   </nav>
 </header>
@@ -27,33 +27,58 @@
 <div class="section">
 
   <div class="card">
+
     <h2>Contact Us</h2>
 
-```
-<img
-  src="charbel profile.jpeg"
-  alt="Lawyer Charbel Bou Younes"
-  style="max-width:250px;width:100%;border-radius:10px;margin-bottom:20px;"
->
+    <img
+      src="charbel profile.jpeg"
+      alt="Lawyer Charbel Bou Younes"
+      style="max-width:250px;width:100%;border-radius:10px;margin-bottom:20px;"
+    >
 
-<p>
-  <strong>Lawyer Charbel Bou Younes</strong>
-</p>
+    <p><strong>Lawyer Charbel Bou Younes</strong></p>
 
-<p>
-  Beirut Bar Association
-</p>
+    <p>Beirut Bar Association</p>
 
-<p>
-  Phone / WhatsApp: +961 76 341 528
-</p>
+    <p>Phone / WhatsApp: +961 76 341 528</p>
 
-<input type="text" placeholder="Name">
+    <form action="https://formspree.io/f/mjgdpnzn" method="POST">
 
-<input type="email" placeholder="Email">
+      <p>
+        <input
+          type="text"
+          name="name"
+          placeholder="Your Name"
+          required
+          style="width:100%;padding:12px;margin-bottom:15px;"
+        >
+      </p>
 
-<textarea placeholder="Message" rows="6"></textarea>
-```
+      <p>
+        <input
+          type="email"
+          name="email"
+          placeholder="Your Email"
+          required
+          style="width:100%;padding:12px;margin-bottom:15px;"
+        >
+      </p>
+
+      <p>
+        <textarea
+          name="message"
+          placeholder="Your Message"
+          rows="6"
+          required
+          style="width:100%;padding:12px;margin-bottom:15px;"
+        ></textarea>
+      </p>
+
+      <button class="btn" type="submit">
+        Send Message
+      </button>
+
+    </form>
 
   </div>
 
@@ -62,7 +87,8 @@
 <a class="whatsapp"
 href="https://wa.me/96176341528"
 target="_blank">
-WhatsApp </a>
+WhatsApp
+</a>
 
 <footer>
   © 2026 Bou Younes Law Firm. All Rights Reserved.
