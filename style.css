@@ -1,19 +1,13 @@
-/* =========================
-   GLOBAL
-========================= */
-
+/* GLOBAL */
 body {
     margin: 0;
-    font-family: "Arial", sans-serif;
+    font-family: Arial, sans-serif;
     background-color: #0f0f14;
     color: #e6e6e6;
     line-height: 1.7;
 }
 
-/* =========================
-   NAVBAR
-========================= */
-
+/* HEADER */
 header {
     background-color: #0b0b0f;
     display: flex;
@@ -26,154 +20,80 @@ header {
     border-bottom: 1px solid #c9a24e;
 }
 
-header .logo {
+.logo {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-header .logo img {
+.logo img {
     height: 60px;
     width: auto;
 }
 
-header nav a {
-    color: #ffffff;
-    text-decoration: none;
+nav a {
+    color: white;
     margin: 12px;
+    text-decoration: none;
     font-weight: 600;
     font-size: 15px;
-    letter-spacing: 0.5px;
 }
 
-header nav a:hover {
+nav a:hover {
     color: #c9a24e;
 }
 
-/* =========================
-   HERO
-========================= */
-
+/* HERO */
 .hero {
     background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
-                url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1500&q=80')
-                center/cover;
-    color: white;
+    url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1500&q=80')
+    center/cover;
     text-align: center;
     padding: 160px 20px;
     border-bottom: 1px solid #c9a24e;
 }
 
 .hero h1 {
-    font-size: 60px;
-    margin-bottom: 10px;
-    letter-spacing: 1px;
+    font-size: 55px;
+    color: #c9a24e;
 }
 
 .hero p {
-    font-size: 20px;
+    font-size: 18px;
     opacity: 0.9;
-    margin-bottom: 25px;
 }
 
-/* =========================
-   BUTTON
-========================= */
-
+/* BUTTON */
 .btn {
     display: inline-block;
     background-color: #c9a24e;
     color: #0b0b0f;
-    padding: 14px 32px;
+    padding: 14px 30px;
     text-decoration: none;
-    border-radius: 4px;
     font-weight: bold;
-    transition: 0.3s;
+    margin-top: 20px;
 }
 
-.btn:hover {
-    background-color: #b08b3f;
-    transform: translateY(-2px);
-}
-
-/* =========================
-   SECTIONS / CARDS
-========================= */
-
+/* SECTIONS */
 .section {
-    max-width: 1000px;
+    max-width: 900px;
     margin: auto;
     padding: 50px 20px;
 }
 
 .card {
     background: #16161d;
-    padding: 45px;
-    margin: 30px auto;
+    padding: 40px;
+    margin-bottom: 20px;
     border-radius: 10px;
     border: 1px solid #2a2a35;
 }
 
-/* =========================
-   HEADINGS
-========================= */
-
-h1, h2 {
-    color: #c9a24e;
-}
-
-h3 {
-    color: #ffffff;
-    margin-top: 25px;
-}
-
-/* =========================
-   FORMS
-========================= */
-
-input, textarea {
-    width: 100%;
-    padding: 12px;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    background-color: #0f0f14;
-    border: 1px solid #2a2a35;
-    color: white;
-    border-radius: 4px;
-}
-
-input:focus, textarea:focus {
-    outline: none;
-    border-color: #c9a24e;
-}
-
-/* =========================
-   FOOTER
-========================= */
-
+/* FOOTER */
 footer {
-    background-color: #0b0b0f;
-    color: #888;
     text-align: center;
-    padding: 30px;
-    margin-top: 70px;
+    padding: 25px;
     font-size: 13px;
+    color: #888;
     border-top: 1px solid #2a2a35;
-}
-
-/* =========================
-   WHATSAPP BUTTON
-========================= */
-
-.whatsapp {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #25D366;
-    color: white;
-    padding: 14px 18px;
-    border-radius: 50px;
-    text-decoration: none;
-    font-weight: bold;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
 }
