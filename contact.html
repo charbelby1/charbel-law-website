@@ -8,13 +8,14 @@
 
 <style>
 
-/* BACKGROUND */
+/* PAGE BACKGROUND */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   color: white;
 }
 
+/* BACKGROUND IMAGE SECTION */
 .contact-page {
   min-height: 100vh;
   background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)),
@@ -24,14 +25,25 @@ body {
   padding: 40px 20px;
 }
 
-/* CARD */
+/* MAIN CARD */
 .card {
   max-width: 850px;
   margin: auto;
-  background: rgba(0,0,0,0.75);
-  padding: 30px;
-  border-radius: 12px;
+  background: rgba(0,0,0,0.80);
+  padding: 40px;
+  border-radius: 14px;
   border: 1px solid #c9a24e;
+  backdrop-filter: blur(6px);
+}
+
+/* TEXT */
+h1, h2, h3 {
+  color: #c9a24e;
+  margin-top: 10px;
+}
+
+p {
+  line-height: 1.6;
 }
 
 /* INPUTS */
@@ -41,8 +53,10 @@ input, textarea {
   margin-top: 10px;
   border-radius: 6px;
   border: none;
+  outline: none;
 }
 
+/* BUTTON */
 button {
   margin-top: 15px;
   width: 100%;
@@ -52,10 +66,17 @@ button {
   font-weight: bold;
   cursor: pointer;
   color: black;
+  border-radius: 6px;
 }
 
+/* LINKS */
 a {
   color: #c9a24e;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 </style>
@@ -65,7 +86,7 @@ a {
 
 <header>
   <div class="logo">
-    <img src="logo.png" alt="Logo">
+    <img src="logo.png" alt="Bou Younes Law Firm Logo">
     <b>BOU YOUNES LAW FIRM</b>
   </div>
 
@@ -79,11 +100,12 @@ a {
   </nav>
 </header>
 
+<!-- BACKGROUND WRAPPER -->
 <div class="contact-page">
 
   <div class="card">
 
-    <h1 style="color:#c9a24e;">Contact Us</h1>
+    <h1>Contact Us</h1>
 
     <p>
       <strong>Lawyer Charbel Bou Younes</strong><br>
@@ -93,41 +115,60 @@ a {
     <p>
       WhatsApp: +961 76 341 528<br><br>
 
-      <a href="https://www.linkedin.com/in/charbel-c-bou-younes-67949323b/" target="_blank">LinkedIn</a> |
-      <a href="https://www.instagram.com/charbel.by/?hl=en" target="_blank">Instagram</a>
+      <a href="https://www.linkedin.com/in/charbel-c-bou-younes-67949323b/" target="_blank">
+        LinkedIn
+      </a>
+      |
+      <a href="https://www.instagram.com/charbel.by/?hl=en" target="_blank">
+        Instagram
+      </a>
     </p>
 
-    <hr style="border-color:#333;margin:20px 0;">
+    <hr style="border:1px solid #333; margin:20px 0;">
 
+    <!-- FORM -->
     <form action="https://formspree.io/f/mjgdpnzn" method="POST">
 
       <input type="text" name="name" placeholder="Your Name" required>
+
       <input type="email" name="email" placeholder="Your Email" required>
+
       <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
 
       <button type="submit">Send Message</button>
 
     </form>
 
+    <!-- OFFICE INFO -->
     <div style="margin-top:25px;">
-      <h3 style="color:#c9a24e;">Office</h3>
+
+      <h2>Office</h2>
       <p>
         Byblos Old Souk, Saint Peter Center, 1st Floor<br>
         Byblos, Lebanon
       </p>
 
-      <h3 style="color:#c9a24e;">Business Hours</h3>
-      <p>Monday – Friday<br>8:00 AM – 7:00 PM</p>
+      <h2>Business Hours</h2>
+      <p>
+        Monday – Friday<br>
+        8:00 AM – 7:00 PM
+      </p>
 
-      <h3 style="color:#c9a24e;">Response Time</h3>
-      <p>We respond within one business day.</p>
+      <h2>Response Time</h2>
+      <p>
+        We aim to respond within one business day.
+      </p>
+
     </div>
 
   </div>
 
 </div>
 
-<a class="whatsapp" href="https://wa.me/96176341528" target="_blank">WhatsApp</a>
+<!-- WHATSAPP BUTTON -->
+<a class="whatsapp" href="https://wa.me/96176341528" target="_blank">
+  WhatsApp
+</a>
 
 </body>
 </html>
