@@ -1,197 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Our Firm | Bou Younes Law Firm</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Our Firm</title>
 
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, sans-serif;
-    }
+<style>
+body { margin:0; font-family:Arial; background:#f5f5f5; }
 
-    body {
-      background-color: #f5f5f5;
-      color: #1a1a1a;
-      line-height: 1.6;
-    }
+header {
+  background:#0b1f3a;
+  color:white;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 30px;
+}
 
-    /* NAVBAR */
-    header {
-      background-color: #0b1f3a;
-      color: white;
-      padding: 15px 40px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
+nav a {
+  color:white;
+  margin-left:15px;
+  text-decoration:none;
+}
 
-    .logo-container {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
+.container {
+  max-width:900px;
+  margin:auto;
+  padding:60px 20px;
+}
 
-    .logo-container img {
-      height: 55px;      /* FIXES tiny logo issue */
-      width: auto;
-      object-fit: contain;
-      display: block;
-    }
-
-    .firm-name {
-      font-size: 18px;
-      font-weight: bold;
-      letter-spacing: 1px;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin-left: 20px;
-      font-size: 14px;
-      transition: 0.3s;
-    }
-
-    nav a:hover {
-      opacity: 0.7;
-    }
-
-    /* HERO */
-    .hero {
-      background-color: #0b1f3a;
-      color: white;
-      text-align: center;
-      padding: 80px 20px;
-    }
-
-    .hero h1 {
-      font-size: 42px;
-      margin-bottom: 15px;
-      letter-spacing: 2px;
-    }
-
-    .hero p {
-      font-size: 18px;
-      opacity: 0.9;
-    }
-
-    /* SECTIONS */
-    .section {
-      max-width: 1000px;
-      margin: auto;
-      padding: 60px 20px;
-    }
-
-    .section h2 {
-      font-size: 26px;
-      margin-bottom: 20px;
-      color: #0b1f3a;
-    }
-
-    .card {
-      background: white;
-      padding: 25px;
-      margin-bottom: 20px;
-      border-radius: 8px;
-      box-shadow: 0 3px 10px rgba(0,0,0,0.05);
-    }
-
-    /* GRID */
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-
-    /* FOOTER */
-    footer {
-      background-color: #0b1f3a;
-      color: white;
-      text-align: center;
-      padding: 25px;
-      margin-top: 40px;
-      font-size: 14px;
-    }
-  </style>
+.card {
+  background:white;
+  padding:25px;
+  border-radius:10px;
+}
+h1 { color:#0b1f3a; }
+</style>
 </head>
 
 <body>
 
-  <!-- NAVBAR -->
-  <header>
-    <div class="logo-container">
-      <!-- Replace this with your real GitHub logo path -->
-      <img src="logo.png" alt="Bou Younes Law Firm Logo">
-      <div class="firm-name">BOU YOUNES LAW FIRM</div>
-    </div>
+<header>
+  <b>BOU YOUNES LAW FIRM</b>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="firm.html">Our Firm</a>
+    <a href="attorney.html">Attorney</a>
+    <a href="practice-areas.html">Practice Areas</a>
+    <a href="insights.html">Insights</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="firm.html">Our Firm</a>
-      <a href="attorney.html">Attorney</a>
-      <a href="practice-areas.html">Practice Areas</a>
-      <a href="insights.html">Insights</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
-
-  <!-- HERO -->
-  <div class="hero">
+<div class="container">
+  <div class="card">
     <h1>Our Firm</h1>
-    <p>Eyes on Justice. Precision in Law. Integrity in Practice.</p>
+    <p>
+      Bou Younes Law Firm is committed to delivering high-quality legal services
+      with integrity, precision, and dedication to client success.
+    </p>
   </div>
-
-  <!-- WHO WE ARE -->
-  <div class="section">
-    <h2>Who We Are</h2>
-    <div class="card">
-      Bou Younes Law Firm is a modern legal practice based in Lebanon, committed to delivering
-      precise, strategic, and results-driven legal services. We combine deep legal expertise
-      with a practical business-oriented approach.
-    </div>
-  </div>
-
-  <!-- PHILOSOPHY -->
-  <div class="section">
-    <h2>Our Philosophy</h2>
-    <div class="grid">
-
-      <div class="card">
-        <h3>Precision</h3>
-        Every legal detail matters. We analyze deeply before acting.
-      </div>
-
-      <div class="card">
-        <h3>Integrity</h3>
-        We operate with full transparency and ethical commitment.
-      </div>
-
-      <div class="card">
-        <h3>Results</h3>
-        Our focus is always on achieving real-world outcomes.
-      </div>
-
-    </div>
-  </div>
-
-  <!-- APPROACH -->
-  <div class="section">
-    <h2>Our Approach</h2>
-    <div class="card">
-      We believe that legal work is not just about interpretation of law, but about strategy.
-      Each case is treated as unique, with tailored solutions designed to protect our clients’
-      rights, assets, and long-term interests.
-    </div>
-  </div>
-
-  <!-- FOOTER -->
-  <footer>
-    © 2026 Bou Younes Law Firm. All Rights Reserved.
-  </footer>
+</div>
 
 </body>
 </html>
