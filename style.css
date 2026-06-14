@@ -45,9 +45,11 @@ nav a:hover {
 
 /* HERO */
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
-    url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1500&q=80')
-    center/cover;
+    background:
+        linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
+        url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1500&q=80');
+    background-position: center;
+    background-size: cover;
     text-align: center;
     padding: 160px 20px;
     border-bottom: 1px solid #c9a24e;
@@ -56,6 +58,7 @@ nav a:hover {
 .hero h1 {
     font-size: 55px;
     color: #c9a24e;
+    margin-bottom: 10px;
 }
 
 .hero p {
@@ -72,6 +75,11 @@ nav a:hover {
     text-decoration: none;
     font-weight: bold;
     margin-top: 20px;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #b08b3f;
 }
 
 /* SECTIONS */
@@ -89,6 +97,15 @@ nav a:hover {
     border: 1px solid #2a2a35;
 }
 
+.card img {
+    display: block;
+}
+
+/* HEADINGS */
+h2 {
+    color: #c9a24e;
+}
+
 /* FOOTER */
 footer {
     text-align: center;
@@ -96,4 +113,51 @@ footer {
     font-size: 13px;
     color: #888;
     border-top: 1px solid #2a2a35;
+}
+
+/* WHATSAPP BUTTON */
+.whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: white;
+    padding: 14px 18px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+    z-index: 9999;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero {
+        padding: 100px 20px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .card {
+        padding: 25px;
+    }
+
+    .logo img {
+        height: 50px;
+    }
 }
