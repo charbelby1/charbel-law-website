@@ -5,13 +5,97 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bou Younes Law Firm</title>
 <link rel="stylesheet" href="style.css">
+
+<style>
+
+/* GLOBAL */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0b0b0f;
+  color: white;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)),
+  url('home-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid #c9a24e;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #c9a24e;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #c9a24e;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+/* SECTIONS */
+.section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+.card {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid #2a2a35;
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+/* HEADINGS */
+h2 {
+  color: #c9a24e;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+  color: #888;
+  border-top: 1px solid #2a2a35;
+}
+
+</style>
+
 </head>
 
 <body>
 
 <header>
   <div class="logo">
-    <img src="logo.png" alt="Bou Younes Law Firm Logo">
+    <img src="logo.png" alt="Logo" style="height:55px;">
     <b>BOU YOUNES LAW FIRM</b>
   </div>
 
@@ -20,26 +104,64 @@
     <a href="firm.html">Our Firm</a>
     <a href="attorney.html">Attorney</a>
     <a href="practice-areas.html">Practice Areas</a>
-    <a href="contact.html">Contact</a>
     <a href="insights.html">Insights</a>
+    <a href="contact.html">Contact</a>
   </nav>
 </header>
 
-<section class="hero">
-  <h1>Bou Younes Law Firm</h1>
-  <p>Eyes on Justice. Precision in Law. Integrity in Practice.</p>
-</section>
+<!-- HERO -->
+<div class="hero">
 
-<section class="section">
-  <div class="card">
-    <h2>Welcome</h2>
-    <p>We provide strategic legal services across corporate, civil, and commercial law.</p>
+  <div class="hero-content">
+
+    <h1>BOU YOUNES LAW FIRM</h1>
+
+    <p>
+      Eyes on Justice. Precision in Law. Integrity in Practice.
+    </p>
+
+    <a class="btn" href="contact.html">Request Consultation</a>
+
   </div>
-</section>
 
-<a class="whatsapp" href="https://wa.me/96176341528" target="_blank">WhatsApp</a>
+</div>
 
-<footer>© 2026 Bou Younes Law Firm</footer>
+<!-- CONTENT -->
+<div class="section">
+
+  <div class="card">
+    <h2>About the Firm</h2>
+    <p>
+      Bou Younes Law Firm provides strategic legal advisory and representation
+      across corporate, commercial, and civil matters in Lebanon and beyond.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Our Approach</h2>
+    <p>
+      We combine legal precision with strategic thinking to deliver clear,
+      effective, and result-oriented solutions for our clients.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Commitment</h2>
+    <p>
+      Integrity, confidentiality, and excellence are at the core of our legal practice.
+    </p>
+  </div>
+
+</div>
+
+<!-- WHATSAPP -->
+<a class="whatsapp" href="https://wa.me/96176341528" target="_blank">
+  WhatsApp
+</a>
+
+<footer>
+  © 2026 Bou Younes Law Firm. All Rights Reserved.
+</footer>
 
 </body>
 </html>
