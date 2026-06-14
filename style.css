@@ -1,32 +1,7 @@
 /* =========================
-   NAVBAR
+   GLOBAL
 ========================= */
-nav {
-    background-color: #0b0b0f;
-    text-align: center;
-    padding: 16px;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    border-bottom: 1px solid #c9a24e;
-}
 
-nav a {
-    color: #ffffff;
-    text-decoration: none;
-    margin: 18px;
-    font-weight: 600;
-    font-size: 15px;
-    letter-spacing: 0.5px;
-}
-
-nav a:hover {
-    color: #c9a24e;
-}
-
-/* =========================
-   BODY
-========================= */
 body {
     margin: 0;
     font-family: "Arial", sans-serif;
@@ -36,11 +11,53 @@ body {
 }
 
 /* =========================
+   NAVBAR
+========================= */
+
+header {
+    background-color: #0b0b0f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid #c9a24e;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .logo img {
+    height: 60px;
+    width: auto;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 12px;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+header nav a:hover {
+    color: #c9a24e;
+}
+
+/* =========================
    HERO
 ========================= */
+
 .hero {
     background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
-                url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f') center/cover;
+                url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=1500&q=80')
+                center/cover;
     color: white;
     text-align: center;
     padding: 160px 20px;
@@ -62,6 +79,7 @@ body {
 /* =========================
    BUTTON
 ========================= */
+
 .btn {
     display: inline-block;
     background-color: #c9a24e;
@@ -79,25 +97,29 @@ body {
 }
 
 /* =========================
-   SECTIONS
+   SECTIONS / CARDS
 ========================= */
+
+.section {
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 20px;
+}
+
 .card {
     background: #16161d;
-    max-width: 950px;
-    margin: 50px auto;
     padding: 45px;
+    margin: 30px auto;
     border-radius: 10px;
     border: 1px solid #2a2a35;
 }
 
-.highlight {
-    border-left: 4px solid #c9a24e;
-}
+/* =========================
+   HEADINGS
+========================= */
 
-h2 {
+h1, h2 {
     color: #c9a24e;
-    margin-bottom: 20px;
-    font-size: 28px;
 }
 
 h3 {
@@ -106,16 +128,14 @@ h3 {
 }
 
 /* =========================
-   LISTS
+   FORMS
 ========================= */
-ul li {
-    margin-bottom: 10px;
-}
 
-/* =========================
-   FORM
-========================= */
 input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 15px;
     background-color: #0f0f14;
     border: 1px solid #2a2a35;
     color: white;
@@ -130,6 +150,7 @@ input:focus, textarea:focus {
 /* =========================
    FOOTER
 ========================= */
+
 footer {
     background-color: #0b0b0f;
     color: #888;
@@ -143,6 +164,7 @@ footer {
 /* =========================
    WHATSAPP BUTTON
 ========================= */
+
 .whatsapp {
     position: fixed;
     bottom: 20px;
