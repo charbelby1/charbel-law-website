@@ -27,8 +27,9 @@ header {
 }
 
 .logo img {
-    height: 60px;
+    height: 55px;
     width: auto;
+    display: block;
 }
 
 nav a {
@@ -97,11 +98,6 @@ nav a:hover {
     border: 1px solid #2a2a35;
 }
 
-.card img {
-    display: block;
-}
-
-/* HEADINGS */
 h2 {
     color: #c9a24e;
 }
@@ -132,7 +128,6 @@ footer {
 
 /* MOBILE */
 @media (max-width: 768px) {
-
     header {
         flex-direction: column;
         gap: 15px;
@@ -155,9 +150,5 @@ footer {
 
     .card {
         padding: 25px;
-    }
-
-    .logo img {
-        height: 50px;
     }
 }
