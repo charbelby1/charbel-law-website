@@ -1,9 +1,10 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact</title>
+<title>Contact | Bou Younes Law Firm</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
@@ -20,23 +21,73 @@
     <a href="firm.html">Our Firm</a>
     <a href="attorney.html">Attorney</a>
     <a href="practice-areas.html">Practice Areas</a>
+    <a href="contact.html">Contact</a>
     <a href="insights.html">Insights</a>
   </nav>
 </header>
 
 <div class="section">
+
   <div class="card">
+
     <h1>Contact Us</h1>
 
-    <input placeholder="Name">
-    <input placeholder="Email">
-    <textarea placeholder="Message"></textarea>
+    <p>
+      Lawyer Charbel Bou Younes<br>
+      Beirut Bar Association<br>
+      WhatsApp: +961 76 341 528
+    </p>
 
-    <button>Send Message</button>
+    <form action="https://formspree.io/f/mjgdpnzn" method="POST">
+
+      <p>
+        <input
+          type="text"
+          name="name"
+          placeholder="Your Name"
+          required
+          style="width:100%;padding:12px;"
+        >
+      </p>
+
+      <p>
+        <input
+          type="email"
+          name="email"
+          placeholder="Your Email"
+          required
+          style="width:100%;padding:12px;"
+        >
+      </p>
+
+      <p>
+        <textarea
+          name="message"
+          placeholder="Your Message"
+          rows="6"
+          required
+          style="width:100%;padding:12px;"
+        ></textarea>
+      </p>
+
+      <button class="btn" type="submit">
+        Send Message
+      </button>
+
+    </form>
+
   </div>
+
 </div>
 
-<a class="whatsapp" href="https://wa.me/96176341528" target="_blank">WhatsApp</a>
+<a class="whatsapp" href="https://wa.me/96176341528" target="_blank">
+  WhatsApp
+</a>
+
+<footer>
+  © 2026 Bou Younes Law Firm. All Rights Reserved.
+</footer>
 
 </body>
 </html>
+```
