@@ -3,15 +3,85 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Practice Areas</title>
+<title>Practice Areas | Bou Younes Law Firm</title>
 <link rel="stylesheet" href="style.css">
+
+<style>
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0b0b0f;
+  color: white;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)),
+  url('practice-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 55vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 1px solid #c9a24e;
+}
+
+.hero h1 {
+  color: #c9a24e;
+  font-size: 42px;
+}
+
+/* GRID */
+.section {
+  max-width: 1100px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid #2a2a35;
+  padding: 25px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  border-color: #c9a24e;
+  transform: translateY(-5px);
+}
+
+h2 {
+  color: #c9a24e;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+  color: #888;
+  border-top: 1px solid #2a2a35;
+}
+
+</style>
+
 </head>
 
 <body>
 
 <header>
   <div class="logo">
-    <img src="logo.png" alt="Bou Younes Law Firm Logo">
+    <img src="logo.png" alt="Logo" style="height:55px;">
     <b>BOU YOUNES LAW FIRM</b>
   </div>
 
@@ -20,19 +90,72 @@
     <a href="firm.html">Our Firm</a>
     <a href="attorney.html">Attorney</a>
     <a href="practice-areas.html">Practice Areas</a>
-    <a href="contact.html">Contact</a>
     <a href="insights.html">Insights</a>
+    <a href="contact.html">Contact</a>
   </nav>
 </header>
 
-<div class="section">
-  <div class="card">
-    <h1>Practice Areas</h1>
-    <p>Civil Law, Corporate Law, Commercial Law, Criminal Law, Family Law, Real Estate Law, Intellectual Property, Arbitration.</p>
-  </div>
+<!-- HERO -->
+<div class="hero">
+  <h1>Practice Areas</h1>
 </div>
 
-<a class="whatsapp" href="https://wa.me/96176341528" target="_blank">WhatsApp</a>
+<!-- CONTENT -->
+<div class="section">
+
+  <div class="grid">
+
+    <div class="card">
+      <h2>Civil Law</h2>
+      <p>Representation in civil disputes, obligations, and litigation matters.</p>
+    </div>
+
+    <div class="card">
+      <h2>Corporate Law</h2>
+      <p>Company formation, governance, restructuring, and transactions.</p>
+    </div>
+
+    <div class="card">
+      <h2>Commercial Law</h2>
+      <p>Business contracts, commercial disputes, and advisory services.</p>
+    </div>
+
+    <div class="card">
+      <h2>Criminal Law</h2>
+      <p>Defense and representation in criminal proceedings.</p>
+    </div>
+
+    <div class="card">
+      <h2>Family Law</h2>
+      <p>Personal status, inheritance, and family-related legal matters.</p>
+    </div>
+
+    <div class="card">
+      <h2>Real Estate Law</h2>
+      <p>Property transactions, disputes, leasing, and development issues.</p>
+    </div>
+
+    <div class="card">
+      <h2>Arbitration</h2>
+      <p>Alternative dispute resolution and arbitration proceedings.</p>
+    </div>
+
+    <div class="card">
+      <h2>Legal Advisory</h2>
+      <p>Strategic legal consulting for individuals and companies.</p>
+    </div>
+
+  </div>
+
+</div>
+
+<a class="whatsapp" href="https://wa.me/96176341528" target="_blank">
+  WhatsApp
+</a>
+
+<footer>
+  © 2026 Bou Younes Law Firm. All Rights Reserved.
+</footer>
 
 </body>
 </html>
