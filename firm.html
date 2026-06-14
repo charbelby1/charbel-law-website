@@ -3,15 +3,74 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Our Firm</title>
+<title>Our Firm | Bou Younes Law Firm</title>
 <link rel="stylesheet" href="style.css">
+
+<style>
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0b0b0f;
+  color: white;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.85)),
+  url('firm-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 1px solid #c9a24e;
+}
+
+.hero h1 {
+  color: #c9a24e;
+  font-size: 42px;
+}
+
+/* SECTIONS */
+.section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 60px 20px;
+}
+
+.card {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid #2a2a35;
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #c9a24e;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+  color: #888;
+  border-top: 1px solid #2a2a35;
+}
+
+</style>
+
 </head>
 
 <body>
 
 <header>
   <div class="logo">
-    <img src="logo.png" alt="Bou Younes Law Firm Logo">
+    <img src="logo.png" alt="Logo" style="height:55px;">
     <b>BOU YOUNES LAW FIRM</b>
   </div>
 
@@ -20,19 +79,53 @@
     <a href="firm.html">Our Firm</a>
     <a href="attorney.html">Attorney</a>
     <a href="practice-areas.html">Practice Areas</a>
-    <a href="contact.html">Contact</a>
     <a href="insights.html">Insights</a>
+    <a href="contact.html">Contact</a>
   </nav>
 </header>
 
-<div class="section">
-  <div class="card">
-    <h1>Our Firm</h1>
-    <p>We are a boutique law firm providing strategic legal solutions with precision and integrity.</p>
-  </div>
+<!-- HERO -->
+<div class="hero">
+  <h1>Our Firm</h1>
 </div>
 
-<a class="whatsapp" href="https://wa.me/96176341528" target="_blank">WhatsApp</a>
+<!-- CONTENT -->
+<div class="section">
+
+  <div class="card">
+    <h2>Who We Are</h2>
+    <p>
+      Bou Younes Law Firm is a Beirut-based legal practice providing
+      high-quality legal advisory and representation across multiple
+      areas of law, serving both individuals and corporate clients.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Our Vision</h2>
+    <p>
+      To deliver precise, strategic, and reliable legal solutions
+      while maintaining the highest standards of integrity and professionalism.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Our Mission</h2>
+    <p>
+      To protect our clients’ interests through clear legal strategy,
+      strong advocacy, and deep understanding of business and law.
+    </p>
+  </div>
+
+</div>
+
+<a class="whatsapp" href="https://wa.me/96176341528" target="_blank">
+  WhatsApp
+</a>
+
+<footer>
+  © 2026 Bou Younes Law Firm. All Rights Reserved.
+</footer>
 
 </body>
 </html>
