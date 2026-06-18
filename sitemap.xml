@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-<url>
-<loc>https://charbelby1.github.io/charbel-law-website/</loc>
-</url>
+  <url>
+    <loc>https://charbelby1.github.io/charbel-law-website/</loc>
+  </url>
 
-<url>
-<loc>https://charbelby1.github.io/charbel-law-website/index.html</loc>
-</url>
+  <url>
+    <loc>https://charbelby1.github.io/charbel-law-website/index.html</loc>
+  </url>
 
-<url>
-<loc>https://charbelby1.github.io/charbel-law-website/firm.html</loc>
-</url>
+  <url>
+    <loc>https://charbelby1.github.io/charbel-law-website/firm.html</loc>
+  </url>
 
-<url>
-<loc>https://charbelby1.github.io/charbel-law-website/attorney.html</loc>
-</url>
+  <url>
+    <loc>https://charbelby1.github.io/charbel-law-website/attorney.html</loc>
+  </url>
 
-<url>
-<loc>https://charbelby1.github.io/charbel-law-website/practice-areas.html</loc>
-</url>
+  <url>
+    <loc>https://charbelby1.github.io/charbel-law-website/practice-areas.html</loc>
+  </url>
 
-<url>
-<loc>https://charbelby1.github.io/charbel-law-website/contact.html</loc>
-</url>
+  <url>
+    <loc>https://charbelby1.github.io/charbel-law-website/contact.html</loc>
+  </url>
 
-<url>
-<loc>https://charbelby1.github.io/charbel-law-website/insights.html</loc>
-</url>
+  <url>
+    <loc>https://charbelby1.github.io/charbel-law-website/insights.html</loc>
+  </url>
 
 </urlset>
