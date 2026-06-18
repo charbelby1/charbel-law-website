@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://charbelby1.github.io/charbel-law-website/sitemap.xml
